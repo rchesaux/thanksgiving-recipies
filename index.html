@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Thanksgiving Recipies</title>
+    </head>
+    <body>
+        <form id="form">    
+            <div>
+                <label>Name: <input type="text" id="name"/></label>
+            </div>
+            <div>
+                <label>Email: <input type="email" id="email"/> </label>
+            </div>
+            <div>
+                <label> What are your ingredients?
+                    <select name="ingredients" multiple="multiple">
+                        <option value="milk" selected="selected">Milk</option>
+                        <option value="flour" selected="selected">Flour</option>
+                        <option value="eggs" selected="selected">Eggs</option>
+                    </select>
+                </label>
+            </div>
+            <div>
+                <input type="submit" name="submit" value="submit" onclick="saveForm()">
+
+            </div>
+        </form>
+    </body>
+    <script src="index.js"></script>
+</html>
